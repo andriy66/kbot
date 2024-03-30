@@ -48,8 +48,8 @@ to quickly create a Cobra application.`,
 			text := ctx.Text()
 
 			switch text {
-				case "hello":
-					err = ctx.Send(fmt.Sprintf("Hello IM KBot %s!", appVersion))
+			case "hello":
+				err = ctx.Send(fmt.Sprintf("Hello IM KBot %s!", appVersion))
 			}
 			return err
 		})
